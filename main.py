@@ -17,5 +17,5 @@ for story in stories:
     if title not in data:
         data.append(title)
 
-with open('webScrape/CBC.json', 'w') as f:
+with open('CBC.json', 'w') as f:
     json.dump(data, f)
